@@ -43,18 +43,14 @@ curl -s http://getcomposer.org/installer | php && ./composer.phar install
 You may also install using [Composer](https://github.com/composer/composer) if you want to use this repo in your own
 project.
 
-Step 1. Add the repo as a dependency.
+Add the repo as a dependency.
 
-```json
-"require": {
-    "deminy/behat-rest-testing": "@dev"
-}
+```sh
+$ composer require deminy/behat-rest-testing
 ```
 
 **NOTE**: This is for running with Behat 3 only. If you use Behat 2.x, please check
 [installation instructions for v1.x](https://github.com/deminy/behat-rest-testing/blob/1.x/README.md) for details.
-
-Step 2. Run Composer: `php composer.phar install`.
 
 # How to Test
 
